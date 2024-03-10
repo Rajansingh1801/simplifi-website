@@ -1,0 +1,191 @@
+.shipping {
+  overflow-x: hidden;
+  font-family: var(--pp-medium);
+}
+@media (max-width: 767px) {
+  .shipping .row {
+    flex-direction: column-reverse;
+  }
+}
+.shipping .row .formside {
+  padding: 120px 88px 70px 88px;
+  background-image: url("../../assets/images/about/aboutbg.png");
+}
+@media (max-width: 1200px) {
+  .shipping .row .formside {
+    padding: 120px 55px 70px 55px;
+  }
+}
+@media (max-width: 768px) {
+  .shipping .row .formside {
+    padding: 20px 55px 70px 55px;
+  }
+}
+@media (max-width: 576px) {
+  .shipping .row .formside {
+    padding: 20px 20px 70px 20px;
+  }
+}
+.shipping .row .formside .head {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 16px 16px;
+  border-radius: 12px;
+}
+.shipping .row .formside form {
+  margin-top: 40px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 34px 30px;
+}
+.shipping .row .formside form .mb-6 {
+  margin-bottom: 30px;
+}
+.shipping .row .formside form .PhoneInputCountry {
+  margin-left: 15px;
+}
+.shipping .row .formside form .PhoneInputCountrySelectArrow {
+  margin-left: 12px;
+}
+.shipping .row .formside form .form-field {
+  margin-bottom: 28px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 768px) {
+  .shipping .row .formside form .form-field {
+    width: 100%;
+  }
+}
+.shipping .row .formside form .form-field input {
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  height: 100%;
+  padding: 18px 26px;
+  color: black;
+  font-family: var(--pp-book);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.shipping .row .formside form .form-field input::-moz-placeholder {
+  color: rgb(222, 221, 221);
+}
+.shipping .row .formside form .form-field input::placeholder {
+  color: rgb(222, 221, 221);
+}
+.shipping .row .formside form .form-field input:focus {
+  outline: none;
+  border: none;
+}
+.shipping .row .formside form .errormessage {
+  color: red;
+  text-align: left;
+  padding: 2px 15px;
+  font-size: 14px;
+}
+.shipping .row .order-side {
+  padding: 120px 88px;
+}
+@media (max-width: 1200px) {
+  .shipping .row .order-side {
+    padding: 120px 55px;
+  }
+}
+@media (max-width: 992px) {
+  .shipping .row .order-side {
+    padding: 120px 30px;
+  }
+}
+@media (max-width: 768px) {
+  .shipping .row .order-side {
+    padding: 120px 30px 20px 30px;
+  }
+}
+.shipping .row .order-side .product-image {
+  max-width: 125px;
+  max-height: 125px;
+  height: 125px;
+  width: 125px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.shipping .row .order-side .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shipping .row .order-side .hr {
+  height: 2px;
+  background-color: #e1e1e1;
+  margin: 30px 0px;
+}
+.shipping .row .order-side p {
+  font-family: var(--pp-book);
+}
+
+.modalwelcome {
+  width: 500px;
+}
+@media (max-width: 576px) {
+  .modalwelcome {
+    width: 300px;
+  }
+}
+.modalwelcome .closebtn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.modalwelcome h4 {
+  text-align: center;
+  font-family: var(--pp-book);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 576px) {
+  .modalwelcome h4 {
+    font-size: 35px;
+  }
+}
+.modalwelcome .tri {
+  margin-top: 20px;
+  background-image: url("../../assets/images/img/triangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+@media (max-width: 576px) {
+  .modalwelcome .tri h5 {
+    font-size: 16px;
+  }
+}
+.modalwelcome .imgcont img {
+  height: 60px;
+  width: 200px;
+}
+@media (max-width: 576px) {
+  .modalwelcome .imgcont img {
+    height: 40px;
+    width: 100px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}/*# sourceMappingURL=style.css.map */

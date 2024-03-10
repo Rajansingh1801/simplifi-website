@@ -1,0 +1,129 @@
+header {
+  height: 85px;
+  width: 100vw;
+  z-index: 999;
+  padding: 0px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: 1200px) {
+    padding: 0px 60px;
+  }
+  @media (max-width: 768px) {
+    padding: 0px 30px;
+  }
+  p {
+    font-family: var(--Montserrat_font);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .userimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    object-fit: cover;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: var(--pp-book);
+    font-weight: 700;
+    align-items: center;
+    background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+  }
+  .username {
+    background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+    color: white;
+    padding: 8px 20px 8px 50px !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -40px;
+    z-index: -1;
+    border-radius: 50px;
+  }
+  .user {
+    cursor: pointer;
+    user-select: none;
+  }
+  .slidebar {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 16px rgb(206, 202, 202);
+    padding: 15px;
+    right: -20px;
+    border-radius: 20px;
+    top: 69px;
+
+    ul {
+      list-style: none;
+      li {
+        margin: 0px 2px;
+        padding: 15px 0px;
+        border-bottom: 2px solid #e1e1e1;
+        padding-right: 25px;
+        white-space: nowrap;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+
+        img {
+          object-fit: cover;
+          padding-right: 10px;
+          // border: 1px solid black;
+        }
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+    }
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 30px solid #ffffff;
+      position: absolute;
+      right: 40px;
+      top: -27px;
+    }
+  }
+  .me-8 {
+    margin-inline-end: 2rem /* 32px */;
+    @media (max-width: 576px) {
+      margin-inline-end: 0.5rem;
+    }
+  }
+  .me-10 {
+    margin-inline-end: 2.5rem /* 40px */;
+  }
+  h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-family: var(--pp-book);
+    @media (max-width: 576px) {
+      font-size: 24px;
+    }
+    span {
+      font-family: var(--pp-editorial);
+      opacity: 0.7;
+    }
+  }
+}
+
+.header-hidden {
+  position: absolute;
+}
+
+.headerporp {
+  // background: url("../../assets/images/about/aboutbg.png") !important;
+  position: fixed;
+}

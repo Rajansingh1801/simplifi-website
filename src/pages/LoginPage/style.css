@@ -1,0 +1,721 @@
+.login .detailside,
+.pagesignup .detailside,
+.forgotpage .detailside,
+.forgotpassword .detailside,
+.optpage .detailside,
+.forgetotppage .detailside,
+.changepassword .detailside {
+  width: 600px;
+  height: 100vh;
+  background-image: url("../../assets/images/login/loginbg1.png");
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .login .detailside,
+  .pagesignup .detailside,
+  .forgotpage .detailside,
+  .forgotpassword .detailside,
+  .optpage .detailside,
+  .forgetotppage .detailside,
+  .changepassword .detailside {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .login .detailside,
+  .pagesignup .detailside,
+  .forgotpage .detailside,
+  .forgotpassword .detailside,
+  .optpage .detailside,
+  .forgetotppage .detailside,
+  .changepassword .detailside {
+    width: 400px;
+  }
+}
+@media (max-width: 650px) {
+  .login .detailside,
+  .pagesignup .detailside,
+  .forgotpage .detailside,
+  .forgotpassword .detailside,
+  .optpage .detailside,
+  .forgetotppage .detailside,
+  .changepassword .detailside {
+    width: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .login .detailside,
+  .pagesignup .detailside,
+  .forgotpage .detailside,
+  .forgotpassword .detailside,
+  .optpage .detailside,
+  .forgetotppage .detailside,
+  .changepassword .detailside {
+    width: 100%;
+  }
+}
+.login .detailside .title,
+.pagesignup .detailside .title,
+.forgotpage .detailside .title,
+.forgotpassword .detailside .title,
+.optpage .detailside .title,
+.forgetotppage .detailside .title,
+.changepassword .detailside .title {
+  padding-top: 240px;
+}
+.login .detailside .title h2,
+.pagesignup .detailside .title h2,
+.forgotpage .detailside .title h2,
+.forgotpassword .detailside .title h2,
+.optpage .detailside .title h2,
+.forgetotppage .detailside .title h2,
+.changepassword .detailside .title h2 {
+  color: #fff;
+  font-family: var(--pp-book);
+  font-size: 55.946px;
+  font-style: normal;
+  line-height: normal;
+  cursor: pointer;
+}
+.login .detailside .title h2 span,
+.pagesignup .detailside .title h2 span,
+.forgotpage .detailside .title h2 span,
+.forgotpassword .detailside .title h2 span,
+.optpage .detailside .title h2 span,
+.forgetotppage .detailside .title h2 span,
+.changepassword .detailside .title h2 span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+.login .detailside .title p,
+.pagesignup .detailside .title p,
+.forgotpage .detailside .title p,
+.forgotpassword .detailside .title p,
+.optpage .detailside .title p,
+.forgetotppage .detailside .title p,
+.changepassword .detailside .title p {
+  color: #fff;
+  text-align: center;
+  font-family: var(--pp-normal);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.login .detailside .logo,
+.pagesignup .detailside .logo,
+.forgotpage .detailside .logo,
+.forgotpassword .detailside .logo,
+.optpage .detailside .logo,
+.forgetotppage .detailside .logo,
+.changepassword .detailside .logo {
+  margin-top: 100px;
+}
+.login .detailside .logo p,
+.pagesignup .detailside .logo p,
+.forgotpage .detailside .logo p,
+.forgotpassword .detailside .logo p,
+.optpage .detailside .logo p,
+.forgetotppage .detailside .logo p,
+.changepassword .detailside .logo p {
+  padding-bottom: 16px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--pp-normal);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.login .detailside .footer,
+.pagesignup .detailside .footer,
+.forgotpage .detailside .footer,
+.forgotpassword .detailside .footer,
+.optpage .detailside .footer,
+.forgetotppage .detailside .footer,
+.changepassword .detailside .footer {
+  padding: 0px 20px;
+  margin-top: auto;
+}
+.login .detailside .footer p,
+.pagesignup .detailside .footer p,
+.forgotpage .detailside .footer p,
+.forgotpassword .detailside .footer p,
+.optpage .detailside .footer p,
+.forgetotppage .detailside .footer p,
+.changepassword .detailside .footer p {
+  color: #fff;
+  font-family: var(--pp-book);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.login .detailside .footer p span,
+.pagesignup .detailside .footer p span,
+.forgotpage .detailside .footer p span,
+.forgotpassword .detailside .footer p span,
+.optpage .detailside .footer p span,
+.forgetotppage .detailside .footer p span,
+.changepassword .detailside .footer p span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+@media (max-width: 576px) {
+  .login .detailside,
+  .pagesignup .detailside,
+  .forgotpage .detailside,
+  .forgotpassword .detailside,
+  .optpage .detailside,
+  .forgetotppage .detailside,
+  .changepassword .detailside {
+    display: none;
+  }
+}
+.login .formside,
+.pagesignup .formside,
+.forgotpage .formside,
+.forgotpassword .formside,
+.optpage .formside,
+.forgetotppage .formside,
+.changepassword .formside {
+  height: 100vh;
+  width: calc(100% - 600px);
+  background-image: url("../../assets/images/login/loginbg2.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+@media (max-width: 1200px) {
+  .login .formside,
+  .pagesignup .formside,
+  .forgotpage .formside,
+  .forgotpassword .formside,
+  .optpage .formside,
+  .forgetotppage .formside,
+  .changepassword .formside {
+    width: calc(100% - 400px);
+  }
+}
+@media (max-width: 992px) {
+  .login .formside,
+  .pagesignup .formside,
+  .forgotpage .formside,
+  .forgotpassword .formside,
+  .optpage .formside,
+  .forgetotppage .formside,
+  .changepassword .formside {
+    width: calc(100% - 250px);
+  }
+}
+@media (max-width: 768px) {
+  .login .formside,
+  .pagesignup .formside,
+  .forgotpage .formside,
+  .forgotpassword .formside,
+  .optpage .formside,
+  .forgetotppage .formside,
+  .changepassword .formside {
+    width: calc(100% - 200px);
+    padding: 0px 16px;
+  }
+}
+.login .formside h3,
+.pagesignup .formside h3,
+.forgotpage .formside h3,
+.forgotpassword .formside h3,
+.optpage .formside h3,
+.forgetotppage .formside h3,
+.changepassword .formside h3 {
+  color: #000;
+  text-align: center;
+  font-family: var(--pp-medium);
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.login .formside h3 span,
+.pagesignup .formside h3 span,
+.forgotpage .formside h3 span,
+.forgotpassword .formside h3 span,
+.optpage .formside h3 span,
+.forgetotppage .formside h3 span,
+.changepassword .formside h3 span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+.login .formside p,
+.pagesignup .formside p,
+.forgotpage .formside p,
+.forgotpassword .formside p,
+.optpage .formside p,
+.forgetotppage .formside p,
+.changepassword .formside p {
+  color: #000;
+  text-align: center;
+  font-family: var(--pp-normal);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.login .formside form,
+.pagesignup .formside form,
+.forgotpage .formside form,
+.forgotpassword .formside form,
+.optpage .formside form,
+.forgetotppage .formside form,
+.changepassword .formside form {
+  margin-top: 40px;
+}
+.login .formside form .mb-6,
+.pagesignup .formside form .mb-6,
+.forgotpage .formside form .mb-6,
+.forgotpassword .formside form .mb-6,
+.optpage .formside form .mb-6,
+.forgetotppage .formside form .mb-6,
+.changepassword .formside form .mb-6 {
+  margin-bottom: 30px;
+}
+.login .formside form .form-field,
+.pagesignup .formside form .form-field,
+.forgotpage .formside form .form-field,
+.forgotpassword .formside form .form-field,
+.optpage .formside form .form-field,
+.forgetotppage .formside form .form-field,
+.changepassword .formside form .form-field {
+  margin-bottom: 28px;
+  width: 449.333px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 992px) {
+  .login .formside form .form-field,
+  .pagesignup .formside form .form-field,
+  .forgotpage .formside form .form-field,
+  .forgotpassword .formside form .form-field,
+  .optpage .formside form .form-field,
+  .forgetotppage .formside form .form-field,
+  .changepassword .formside form .form-field {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .login .formside form .form-field,
+  .pagesignup .formside form .form-field,
+  .forgotpage .formside form .form-field,
+  .forgotpassword .formside form .form-field,
+  .optpage .formside form .form-field,
+  .forgetotppage .formside form .form-field,
+  .changepassword .formside form .form-field {
+    width: 100%;
+  }
+}
+.login .formside form .form-field input,
+.pagesignup .formside form .form-field input,
+.forgotpage .formside form .form-field input,
+.forgotpassword .formside form .form-field input,
+.optpage .formside form .form-field input,
+.forgetotppage .formside form .form-field input,
+.changepassword .formside form .form-field input {
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  height: 100%;
+  padding: 18px 26px;
+  color: black;
+  font-family: var(--pp-book);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.login .formside form .form-field input::-moz-placeholder, .pagesignup .formside form .form-field input::-moz-placeholder, .forgotpage .formside form .form-field input::-moz-placeholder, .forgotpassword .formside form .form-field input::-moz-placeholder, .optpage .formside form .form-field input::-moz-placeholder, .forgetotppage .formside form .form-field input::-moz-placeholder, .changepassword .formside form .form-field input::-moz-placeholder {
+  color: rgb(222, 221, 221);
+}
+.login .formside form .form-field input::placeholder,
+.pagesignup .formside form .form-field input::placeholder,
+.forgotpage .formside form .form-field input::placeholder,
+.forgotpassword .formside form .form-field input::placeholder,
+.optpage .formside form .form-field input::placeholder,
+.forgetotppage .formside form .form-field input::placeholder,
+.changepassword .formside form .form-field input::placeholder {
+  color: rgb(222, 221, 221);
+}
+.login .formside form .form-field input:focus,
+.pagesignup .formside form .form-field input:focus,
+.forgotpage .formside form .form-field input:focus,
+.forgotpassword .formside form .form-field input:focus,
+.optpage .formside form .form-field input:focus,
+.forgetotppage .formside form .form-field input:focus,
+.changepassword .formside form .form-field input:focus {
+  outline: none;
+  border: none;
+}
+.login .formside form .form-field img,
+.pagesignup .formside form .form-field img,
+.forgotpage .formside form .form-field img,
+.forgotpassword .formside form .form-field img,
+.optpage .formside form .form-field img,
+.forgetotppage .formside form .form-field img,
+.changepassword .formside form .form-field img {
+  width: 16.879px;
+  height: 8.745px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.login .formside form .errormessage,
+.pagesignup .formside form .errormessage,
+.forgotpage .formside form .errormessage,
+.forgotpassword .formside form .errormessage,
+.optpage .formside form .errormessage,
+.forgetotppage .formside form .errormessage,
+.changepassword .formside form .errormessage {
+  color: red;
+  text-align: left;
+  padding: 2px 15px;
+  font-size: 14px;
+}
+.login .formside form button,
+.pagesignup .formside form button,
+.forgotpage .formside form button,
+.forgotpassword .formside form button,
+.optpage .formside form button,
+.forgetotppage .formside form button,
+.changepassword .formside form button {
+  margin-top: 20px;
+  width: 200px;
+  padding: 12px 0px;
+  border-radius: 50px;
+  border: 2px solid;
+  background: linear-gradient(89deg, #095991 0.21%, #011a2a 100%);
+  background: white;
+  font-family: var(--pp-medium);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .login .formside form button,
+  .pagesignup .formside form button,
+  .forgotpage .formside form button,
+  .forgotpassword .formside form button,
+  .optpage .formside form button,
+  .forgetotppage .formside form button,
+  .changepassword .formside form button {
+    padding: 6px 0px;
+  }
+}
+.login .formside form button:hover,
+.pagesignup .formside form button:hover,
+.forgotpage .formside form button:hover,
+.forgotpassword .formside form button:hover,
+.optpage .formside form button:hover,
+.forgetotppage .formside form button:hover,
+.changepassword .formside form button:hover {
+  color: white;
+  background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+}
+.login .formside form .forget,
+.pagesignup .formside form .forget,
+.forgotpage .formside form .forget,
+.forgotpassword .formside form .forget,
+.optpage .formside form .forget,
+.forgetotppage .formside form .forget,
+.changepassword .formside form .forget {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.login .formside .guest p,
+.pagesignup .formside .guest p,
+.forgotpage .formside .guest p,
+.forgotpassword .formside .guest p,
+.optpage .formside .guest p,
+.forgetotppage .formside .guest p,
+.changepassword .formside .guest p {
+  color: #095991;
+  font-weight: 500;
+  cursor: pointer;
+}
+.login .formside .singup,
+.pagesignup .formside .singup,
+.forgotpage .formside .singup,
+.forgotpassword .formside .singup,
+.optpage .formside .singup,
+.forgetotppage .formside .singup,
+.changepassword .formside .singup {
+  margin-top: 25px;
+}
+.login .formside .singup p,
+.pagesignup .formside .singup p,
+.forgotpage .formside .singup p,
+.forgotpassword .formside .singup p,
+.optpage .formside .singup p,
+.forgetotppage .formside .singup p,
+.changepassword .formside .singup p {
+  color: #000;
+  text-align: center;
+  font-family: var(--pp-book);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.login .formside .singup p span,
+.pagesignup .formside .singup p span,
+.forgotpage .formside .singup p span,
+.forgotpassword .formside .singup p span,
+.optpage .formside .singup p span,
+.forgetotppage .formside .singup p span,
+.changepassword .formside .singup p span {
+  background: linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.login .formside .form-field:hover,
+.pagesignup .formside .form-field:hover,
+.forgotpage .formside .form-field:hover,
+.forgotpassword .formside .form-field:hover,
+.optpage .formside .form-field:hover,
+.forgetotppage .formside .form-field:hover,
+.changepassword .formside .form-field:hover {
+  border: 1px solid #f37335 !important;
+  outline: 1px solid #f37335 !important;
+}
+.login .formside .checkbox,
+.pagesignup .formside .checkbox,
+.forgotpage .formside .checkbox,
+.forgotpassword .formside .checkbox,
+.optpage .formside .checkbox,
+.forgetotppage .formside .checkbox,
+.changepassword .formside .checkbox {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.login .formside .checkbox__input,
+.pagesignup .formside .checkbox__input,
+.forgotpage .formside .checkbox__input,
+.forgotpassword .formside .checkbox__input,
+.optpage .formside .checkbox__input,
+.forgetotppage .formside .checkbox__input,
+.changepassword .formside .checkbox__input {
+  position: absolute;
+  width: 1.375em;
+  height: 1.375em;
+  opacity: 0;
+  cursor: pointer;
+}
+.login .formside .checkbox__input:checked + .checkbox__icon .tick,
+.pagesignup .formside .checkbox__input:checked + .checkbox__icon .tick,
+.forgotpage .formside .checkbox__input:checked + .checkbox__icon .tick,
+.forgotpassword .formside .checkbox__input:checked + .checkbox__icon .tick,
+.optpage .formside .checkbox__input:checked + .checkbox__icon .tick,
+.forgetotppage .formside .checkbox__input:checked + .checkbox__icon .tick,
+.changepassword .formside .checkbox__input:checked + .checkbox__icon .tick {
+  stroke-dashoffset: 0;
+}
+.login .formside .checkbox__icon,
+.pagesignup .formside .checkbox__icon,
+.forgotpage .formside .checkbox__icon,
+.forgotpassword .formside .checkbox__icon,
+.optpage .formside .checkbox__icon,
+.forgetotppage .formside .checkbox__icon,
+.changepassword .formside .checkbox__icon {
+  width: 1.375em;
+  height: 1.375em;
+  flex-shrink: 0;
+  overflow: visible;
+}
+.login .formside .checkbox__icon .tick,
+.pagesignup .formside .checkbox__icon .tick,
+.forgotpage .formside .checkbox__icon .tick,
+.forgotpassword .formside .checkbox__icon .tick,
+.optpage .formside .checkbox__icon .tick,
+.forgetotppage .formside .checkbox__icon .tick,
+.changepassword .formside .checkbox__icon .tick {
+  stroke-dasharray: 20px;
+  filter: blur(0px) !important;
+  stroke-dashoffset: 20px;
+  transition: stroke-dashoffset 0.2s ease-out;
+}
+.login .formside .mobilefooter,
+.pagesignup .formside .mobilefooter,
+.forgotpage .formside .mobilefooter,
+.forgotpassword .formside .mobilefooter,
+.optpage .formside .mobilefooter,
+.forgetotppage .formside .mobilefooter,
+.changepassword .formside .mobilefooter {
+  margin-top: 20px;
+  display: none;
+  font-family: var(--pp-book);
+}
+.login .formside .mobilefooter h2,
+.pagesignup .formside .mobilefooter h2,
+.forgotpage .formside .mobilefooter h2,
+.forgotpassword .formside .mobilefooter h2,
+.optpage .formside .mobilefooter h2,
+.forgetotppage .formside .mobilefooter h2,
+.changepassword .formside .mobilefooter h2 {
+  margin-top: 100px;
+  color: #000000;
+  font-family: var(--pp-book);
+  font-size: 46px;
+  font-style: normal;
+  line-height: normal;
+  cursor: pointer;
+}
+.login .formside .mobilefooter h2 span,
+.pagesignup .formside .mobilefooter h2 span,
+.forgotpage .formside .mobilefooter h2 span,
+.forgotpassword .formside .mobilefooter h2 span,
+.optpage .formside .mobilefooter h2 span,
+.forgetotppage .formside .mobilefooter h2 span,
+.changepassword .formside .mobilefooter h2 span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+@media (max-width: 576px) {
+  .login .formside .mobilefooter,
+  .pagesignup .formside .mobilefooter,
+  .forgotpage .formside .mobilefooter,
+  .forgotpassword .formside .mobilefooter,
+  .optpage .formside .mobilefooter,
+  .forgetotppage .formside .mobilefooter,
+  .changepassword .formside .mobilefooter {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .login .formside,
+  .pagesignup .formside,
+  .forgotpage .formside,
+  .forgotpassword .formside,
+  .optpage .formside,
+  .forgetotppage .formside,
+  .changepassword .formside {
+    width: 100vw;
+  }
+}
+.login .formside .mobileheader,
+.pagesignup .formside .mobileheader,
+.forgotpage .formside .mobileheader,
+.forgotpassword .formside .mobileheader,
+.optpage .formside .mobileheader,
+.forgetotppage .formside .mobileheader,
+.changepassword .formside .mobileheader {
+  display: none;
+}
+.login .formside .mobileheader h2,
+.pagesignup .formside .mobileheader h2,
+.forgotpage .formside .mobileheader h2,
+.forgotpassword .formside .mobileheader h2,
+.optpage .formside .mobileheader h2,
+.forgetotppage .formside .mobileheader h2,
+.changepassword .formside .mobileheader h2 {
+  color: #000000;
+  font-family: var(--pp-book);
+  font-size: 46px;
+  font-style: normal;
+  line-height: normal;
+  cursor: pointer;
+}
+.login .formside .mobileheader h2 span,
+.pagesignup .formside .mobileheader h2 span,
+.forgotpage .formside .mobileheader h2 span,
+.forgotpassword .formside .mobileheader h2 span,
+.optpage .formside .mobileheader h2 span,
+.forgetotppage .formside .mobileheader h2 span,
+.changepassword .formside .mobileheader h2 span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+@media (max-width: 576px) {
+  .login .formside .mobileheader,
+  .pagesignup .formside .mobileheader,
+  .forgotpage .formside .mobileheader,
+  .forgotpassword .formside .mobileheader,
+  .optpage .formside .mobileheader,
+  .forgetotppage .formside .mobileheader,
+  .changepassword .formside .mobileheader {
+    display: block;
+  }
+}
+
+.pagesignup .formside {
+  overflow-y: scroll;
+  padding-top: 260px;
+}
+
+.optpage input,
+.forgetotppage input {
+  width: 50px !important;
+  height: 50px;
+  margin: 0px 10px;
+  border-radius: 13.333px;
+  border: 1.333px solid #c2c2c2;
+  background: #fff;
+}
+.optpage .otpp,
+.forgetotppage .otpp {
+  background: linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: var(--pp-medium);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  border-bottom: 1px solid #fdc830;
+  text-decoration: underline;
+  line-height: 16px !important;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.otpclass p {
+  text-align: start !important;
+}
+
+.fw-400 {
+  font-weight: 400;
+  font-family: var(--pp-medium);
+}
+
+input[type=password]:not(:-moz-placeholder-shown) {
+  font-family: "pass" !important;
+  font-size: 20px !important;
+}
+
+input[type=password]:not(:placeholder-shown) {
+  font-family: "pass" !important;
+  font-size: 20px !important;
+}
+
+.fotp p {
+  text-align: left !important;
+}
+
+input:-webkit-autofill {
+  -webkit-background-clip: text;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px rgba(255, 255, 255, 0.1607843137);
+}/*# sourceMappingURL=style.css.map */

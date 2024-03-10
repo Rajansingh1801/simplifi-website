@@ -1,0 +1,220 @@
+@import "./font/stylesheet.css";
+@import "./sass/global.css";
+
+.toast {
+  z-index: 999999;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+.me-8 {
+  margin-inline-end: 2rem /* 32px */;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.button1 {
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid #095991;
+  display: flex;
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #095991;
+  font-family: var(--pp-medium);
+  flex-shrink: 0;
+}
+@media (max-width: 576px) {
+  .button1 {
+    height: 50px;
+    width: 200px;
+  }
+}
+.button1:hover {
+  background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%) !important;
+  color: white;
+}
+
+.textgr {
+  background: var(--G2, linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--pp-medium);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heading h2 {
+  color: #000;
+  font-family: var(--pp-medium);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41.6px; /* 83.2% */
+  text-transform: capitalize;
+}
+
+.heading p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .heading h2 {
+    font-size: 40px;
+  }
+  .heading p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading h2 {
+    font-size: 40px;
+  }
+  .heading p {
+    font-size: 15px;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.loader {
+  --dim: 3rem;
+  width: var(--dim);
+  height: var(--dim);
+  position: relative;
+  animation: spin988 2s linear infinite;
+}
+
+.loader .circle {
+  --color: #7a421a;
+  --dim: 1.2rem;
+  width: var(--dim);
+  height: var(--dim);
+  background-color: var(--color);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.loader .circle:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.loader .circle:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+
+.loader .circle:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+
+.loader .circle:nth-child(4) {
+  bottom: 0;
+  right: 0;
+}
+
+@keyframes spin988 {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+
+  20%,
+  25% {
+    transform: scale(1.3) rotate(90deg);
+  }
+
+  45%,
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
+
+  70%,
+  75% {
+    transform: scale(1.3) rotate(270deg);
+  }
+
+  95%,
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+.text-red {
+  color: red;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.closebtn {
+  cursor: pointer;
+}
+
+.loginiconsocial {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: white;
+  padding: 6px;
+  border: 1px solid #dadce0;
+}

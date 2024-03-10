@@ -1,0 +1,210 @@
+.orderhistory {
+  font-family: var(--pp-medium);
+  position: relative;
+  .emptyorder {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    z-index: -1;
+  }
+  .dropdowns {
+    select {
+      background-color: #eb5757;
+      padding: 7px 15px;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      option {
+        background-color: #ffffff;
+        margin: 10px 20px !important;
+        color: #00080e;
+      }
+    }
+  }
+  .btn1 {
+    padding: 8px 20px;
+    background-color: #eb5757;
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .hr {
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 20px 0px;
+  }
+  h6 {
+    color: var(--Dark, #00080e);
+    font-family: var(--pp-medium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @media (max-width: 576px) {
+      font-size: 16px;
+      overflow: hidden;
+      white-space: wrap;
+      word-wrap: break-word;
+    }
+  }
+  h5 {
+    color: var(--Dark, #00080e);
+    font-family: var(--pp-medium);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .heads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--pp-book);
+  }
+  .orderlist {
+    .order {
+      border-radius: 14px;
+      background: #fff;
+      padding: 28px;
+      box-shadow: 0px 0px 50px rgba(162, 161, 161);
+      margin: 20px 0px;
+      .orderhead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width: 992px) {
+          align-items: start;
+          flex-direction: column;
+        }
+
+        .timer {
+          h6 {
+            padding-left: 16px;
+            color: #eb5757;
+            @media (max-width: 992px) {
+              padding-left: 0px;
+            }
+          }
+          p {
+            color: #eb5757;
+            font-family: var(--pp-book);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: auto;
+          }
+        }
+        .dilivery-status {
+          background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        .dilivery-status-cancel {
+          color: #eb5757 !important;
+        }
+      }
+      .leftside {
+        border-left: 2px solid black;
+        @media (max-width: 768px) {
+          border: 0;
+          margin-top: 20px;
+          button {
+            margin-top: 20px;
+          }
+        }
+        p {
+          font-size: 18px;
+          color: #626262;
+          font-family: var(--pp-book);
+        }
+      }
+    }
+  }
+}
+
+.modal1 {
+  background-color: #fffaf7;
+  position: relative;
+  width: 450px;
+  @media (max-width: 576px) {
+    width: 300px;
+  }
+  @media (max-width: 350px) {
+    width: 250px;
+  }
+  .closebtn {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+  }
+  label {
+    color: var(--Dark, #011422);
+    font-family: var(--pp-book);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
+  }
+  textarea {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    margin-top: 14px;
+  }
+  textarea:focus {
+    border: none;
+    outline: none;
+  }
+  button {
+    margin-top: 16px;
+  }
+}
+.modal2 {
+  background-color: white;
+  .gif {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top: -40px;
+    object-fit: cover;
+  }
+}
+
+.orderheads {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--pp-book);
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  .statusbtn {
+    button {
+      padding: 8px 18px;
+      color: white;
+      border: none;
+      background-color: #626262;
+      border-radius: 6px;
+      margin-bottom: 16px;
+    }
+    button.active {
+      background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+    }
+  }
+}

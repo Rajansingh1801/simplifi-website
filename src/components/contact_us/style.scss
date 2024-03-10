@@ -1,0 +1,145 @@
+.contact-us {
+  font-family: var(--pp-book);
+  .header {
+    position: relative;
+
+    .text {
+      position: absolute;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--pp-book);
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 500;
+      inset: 0;
+      line-height: 70px;
+    }
+  }
+  .formbody {
+    margin: 45px 0px;
+
+    .content-side {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h4 {
+        color: #000;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      p {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .cardbox {
+        .box {
+          width: 294px;
+          height: 82px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          background-image: url("../../assets/images/contactus/boxbg.png");
+          background-repeat: no-repeat;
+          padding: 10px;
+          border-left: 4px solid #f37335;
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+
+    form {
+      border-radius: 12px;
+      background-color: white;
+      padding: 34px 30px;
+      .mb-6 {
+        margin-bottom: 30px;
+      }
+      .PhoneInputCountry {
+        margin-left: 15px;
+      }
+      .PhoneInputCountrySelectArrow {
+        margin-left: 12px;
+      }
+      .form-field {
+        margin-bottom: 28px;
+        height: 60px;
+        border-radius: 50px;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+        @media (max-width: 992px) {
+        }
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+
+        input {
+          border: none;
+          width: 100%;
+          border-radius: 50px;
+          height: 100%;
+          padding: 18px 26px;
+          color: black;
+          font-family: var(--pp-book);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          @media (max-width: 768px) {
+          }
+        }
+        input::placeholder {
+          color: rgb(222, 221, 221);
+        }
+
+        input:focus {
+          outline: none;
+          border: none;
+        }
+      }
+      textarea {
+        height: 60px;
+        border-radius: 50px;
+        width: 100%;
+        height: 180px;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+        padding: 18px 26px;
+        color: black;
+        font-family: var(--pp-book);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        @media (max-width: 992px) {
+        }
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+      textarea:focus {
+        border: none;
+        outline: none;
+      }
+
+      .errormessage {
+        color: red;
+        text-align: left;
+        padding: 2px 15px;
+        font-size: 14px;
+      }
+    }
+  }
+}

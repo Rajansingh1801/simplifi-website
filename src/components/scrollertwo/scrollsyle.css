@@ -1,0 +1,105 @@
+.scrollertwocont .scrollertwo-container {
+  height: 100vh;
+  background-image: url("../../assets/images/about/aboutbg.png");
+  overflow: hidden;
+}
+@media (max-height: 100vh) {
+  .scrollertwocont .scrollertwo-container {
+    position: sticky;
+    top: 0%;
+    z-index: -1;
+  }
+}
+.scrollertwocont .scrollertwo-container .Aborder {
+  width: 634px;
+  height: 426px;
+  border-radius: 210px;
+  border: 2px dashed rgba(217, 217, 217, 0.5);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+}
+.scrollertwocont .scrollertwo-container .sleepgirl {
+  background-image: url("../../assets/images/about/mount.png");
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  -o-object-position: center;
+     object-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.scrollertwocont .new1 {
+  height: 150vh;
+}
+.scrollertwocont .new7 {
+  height: 100vh;
+  padding: 0px 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .scrollertwocont .new7 {
+    height: 100%;
+    padding-bottom: 26px;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .scrollertwocont .new7 {
+    padding: 0px 30px;
+  }
+}
+.scrollertwocont .heading {
+  padding-bottom: 100px;
+}
+.scrollertwocont .heading h2 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--pp-book);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41.6px; /* 83.2% */
+  text-transform: capitalize;
+}
+.scrollertwocont .heading p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.9px;
+}
+.scrollertwocont .about-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .scrollertwocont .about-details {
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .scrollertwocont .about-details img {
+    height: 150px;
+    width: 150px;
+  }
+}
+.scrollertwocont .about-details h5 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #fff;
+  font-family: var(--pp-book);
+}
+.scrollertwocont .new11 {
+  height: 100vh;
+  background-color: rgb(16, 16, 15);
+}/*# sourceMappingURL=scrollsyle.css.map */

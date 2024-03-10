@@ -1,0 +1,56 @@
+.notification {
+  font-family: var(--pp-book);
+  padding-top: 120px;
+}
+.notification .v-none {
+  visibility: hidden;
+}
+.notification .text-blue {
+  color: rgb(38, 90, 107);
+}
+.notification .body {
+  background-color: #f9f9f9;
+}
+.notification .body .borders {
+  height: 15px;
+  width: 15px;
+}
+.notification .body .lines {
+  text-align: center;
+  width: 30px;
+  height: 4px;
+  background-color: #e5e5e5;
+  margin-left: 8px;
+}
+.notification .body .card-cont {
+  border-radius: 4px;
+  margin: 10px 0px;
+  background: #fff;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  padding: 40px;
+}
+.notification .body .card-cont .content {
+  color: #00080e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.notification .body .date {
+  white-space: nowrap;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.notification .body .time {
+  color: #626262;
+  font-size: 20px;
+}
+.notification .body .unread {
+  background-color: #d8d8d8;
+}/*# sourceMappingURL=style.css.map */

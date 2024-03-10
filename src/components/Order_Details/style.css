@@ -1,0 +1,204 @@
+.orderDetails {
+  padding-top: 120px;
+}
+.orderDetails .price-cal {
+  width: 25%;
+}
+@media (max-width: 992px) {
+  .orderDetails .price-cal {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .orderDetails .price-cal {
+    width: 75%;
+  }
+}
+@media (max-width: 576px) {
+  .orderDetails .price-cal {
+    width: 100%;
+  }
+}
+.orderDetails .order-cont {
+  border-radius: 20px;
+}
+.orderDetails .order-cont .order {
+  border-radius: 14px;
+  background: #fff;
+  padding: 28px;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+.orderDetails .order-cont .order .productimg img {
+  height: 100px;
+  width: 80px;
+}
+.orderDetails .order-cont .order .orderhead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+@media (max-width: 992px) {
+  .orderDetails .order-cont .order .orderhead h4 {
+    font-size: 16px;
+  }
+  .orderDetails .order-cont .order .orderhead h6 {
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .orderDetails .order-cont .order .orderhead {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+}
+.orderDetails .order-cont .order .orderhead .timer h6 {
+  padding-left: 16px;
+  color: #eb5757;
+}
+@media (max-width: 576px) {
+  .orderDetails .order-cont .order .orderhead .timer h6 {
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+}
+.orderDetails .order-cont .order .orderhead .timer p {
+  color: #eb5757;
+  font-family: var(--pp-book);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}
+.orderDetails .order-cont .order .orderhead .dilivery-status {
+  background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.orderDetails .order-cont .order .orderhead .dilivery-status-cancel {
+  color: #eb5757 !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.orderDetails .order-cont .order .leftside {
+  border-left: 2px solid black;
+}
+@media (max-width: 768px) {
+  .orderDetails .order-cont .order .leftside {
+    border: 0;
+    padding-top: 16px;
+  }
+}
+.orderDetails .order-cont .order .leftside h6 {
+  color: var(--Dark, #00080e);
+  font-family: var(--pp-medium);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.orderDetails .order-cont .order .leftside p {
+  font-size: 18px;
+  color: #626262;
+  font-family: var(--pp-book);
+}
+
+.ordertrack .order-tracking {
+  background-color: #fffaf7;
+  padding: 20px;
+  border-radius: 5px;
+}
+.ordertrack .order-tracking .status-list {
+  width: 70%;
+}
+@media (max-width: 992px) {
+  .ordertrack .order-tracking .status-list {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.ordertrack .order-tracking .status-list .status-item {
+  display: flex;
+  padding: 20px 30px 50px 30px;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .ordertrack .order-tracking .status-list .status-item {
+    display: block;
+  }
+}
+.ordertrack .order-tracking .status-list .status-item h6 {
+  margin-top: 20px;
+}
+.ordertrack .order-tracking .status-list .status-item .point {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.ordertrack .order-tracking .status-list .status-item .line {
+  height: 6px;
+  width: 10rem;
+}
+@media (max-width: 992px) {
+  .ordertrack .order-tracking .status-list .status-item .line {
+    height: 5rem;
+    width: 6px;
+    margin: auto;
+  }
+}
+.ordertrack .order-tracking .status-list .status-item h3 {
+  position: absolute;
+  bottom: -40px;
+  font-size: 16px;
+  white-space: nowrap;
+  right: -30px;
+}
+@media (max-width: 992px) {
+  .ordertrack .order-tracking .status-list .status-item h3 {
+    bottom: 0;
+    left: 100px;
+  }
+}
+
+.bg-gray {
+  background-color: #e5e5e5;
+}
+
+.bg-blue {
+  background-color: #003251;
+}
+
+.ordersttus {
+  margin-top: 16px;
+  justify-content: space-between;
+}
+.ordersttus h3 {
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-red {
+  background-color: #eb5757;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.text-red {
+  color: #eb5757 !important;
+}/*# sourceMappingURL=style.css.map */

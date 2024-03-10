@@ -1,0 +1,196 @@
+.orderDetails {
+  padding-top: 120px;
+
+  .price-cal {
+    width: 25%;
+    @media (max-width: 992px) {
+      width: 50%;
+    }
+    @media (max-width: 768px) {
+      width: 75%;
+    }
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+  .order-cont {
+    border-radius: 20px;
+
+    .order {
+      border-radius: 14px;
+      background: #fff;
+      padding: 28px;
+      box-shadow: 0px 2px 50px 0px rgb(0, 0, 0, 0.1);
+      margin: 20px 0px;
+      .productimg {
+        img {
+          height: 100px;
+          width: 80px;
+        }
+      }
+      .orderhead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        @media (max-width: 992px) {
+          h4 {
+            font-size: 16px;
+          }
+          h6 {
+            overflow: hidden;
+            word-wrap: break-word;
+            white-space: wrap;
+          }
+        }
+        @media (max-width: 768px) {
+          flex-direction: column-reverse;
+          align-items: start;
+        }
+
+        .timer {
+          h6 {
+            padding-left: 16px;
+            color: #eb5757;
+            @media (max-width: 576px) {
+              word-wrap: break-word;
+              overflow: hidden;
+            }
+          }
+          p {
+            color: #eb5757;
+            font-family: var(--pp-book);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: auto;
+          }
+        }
+        .dilivery-status {
+          background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        .dilivery-status-cancel {
+          color: #eb5757 !important;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      .leftside {
+        border-left: 2px solid black;
+
+        @media (max-width: 768px) {
+          border: 0;
+          padding-top: 16px;
+        }
+        h6 {
+          color: var(--Dark, #00080e);
+          font-family: var(--pp-medium);
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        p {
+          font-size: 18px;
+          color: #626262;
+          font-family: var(--pp-book);
+        }
+      }
+    }
+  }
+}
+
+.ordertrack {
+  .order-tracking {
+    // background: var(
+    //   --G2,
+    //   linear-gradient(
+    //     89deg,
+    //     hsl(205, 88%, 30%, 5%) 0.21%,
+    //     hsl(203, 95%, 8%, 5%) 106.62%
+    //   )
+    // );
+    background-color: #fffaf7;
+    padding: 20px;
+    border-radius: 5px;
+    .status-list {
+      width: 70%;
+      @media (max-width: 992px) {
+        width: fit-content;
+      }
+
+      .status-item {
+        display: flex;
+        padding: 20px 30px 50px 30px;
+        width: 100%;
+        @media (max-width: 992px) {
+          display: block;
+        }
+        h6 {
+          margin-top: 20px;
+        }
+        .point {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+        .line {
+          height: 6px;
+          width: 10rem;
+          @media (max-width: 992px) {
+            height: 5rem;
+            width: 6px;
+            margin: auto;
+          }
+        }
+        h3 {
+          position: absolute;
+          bottom: -40px;
+          font-size: 16px;
+          white-space: nowrap;
+          right: -30px;
+          @media (max-width: 992px) {
+            bottom: 0;
+            left: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bg-gray {
+  background-color: #e5e5e5;
+}
+.bg-blue {
+  background-color: #003251;
+}
+.ordersttus {
+  margin-top: 16px;
+  justify-content: space-between;
+  h3 {
+    font-size: 18px;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+.bg-red {
+  background-color: #eb5757;
+}
+.w-30 {
+  width: 30%;
+}
+.text-red {
+  color: #eb5757 !important;
+}

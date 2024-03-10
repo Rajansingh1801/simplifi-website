@@ -1,0 +1,148 @@
+.Purchase_step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px;
+}
+@media (max-width: 768px) {
+  .Purchase_step {
+    height: auto;
+    padding: 60px;
+  }
+  .Purchase_step button {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .Purchase_step {
+    padding: 60px 26px;
+  }
+}
+.Purchase_step .cardcont {
+  margin: 60px 0px;
+  background: #002036;
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-items: center;
+  height: 253px;
+  padding: 0px 140px;
+  border-radius: 150px;
+}
+@media (max-width: 1400px) {
+  .Purchase_step .cardcont {
+    padding: 0px 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .Purchase_step .cardcont {
+    padding: 0px 70px;
+  }
+}
+@media (max-width: 768px) {
+  .Purchase_step .cardcont {
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-top: 50px;
+  }
+  .Purchase_step .cardcont .arrow {
+    transform: rotate(90deg);
+  }
+}
+@media (max-width: 576px) {
+  .Purchase_step .cardcont {
+    padding: 30px 10px;
+  }
+}
+.Purchase_step .cardcont .cont {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .Purchase_step .cardcont .cont {
+    padding: 18px;
+  }
+}
+.Purchase_step .cardcont .cont .round {
+  width: 103px;
+  height: 103px;
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+@media (max-width: 1200px) {
+  .Purchase_step .cardcont .cont .round {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 992px) {
+  .Purchase_step .cardcont .cont .round {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .Purchase_step .cardcont .cont .round {
+    width: 90px;
+    height: 90px;
+  }
+}
+.Purchase_step .cardcont .cont .round h4 {
+  text-align: center;
+  font-family: var(--pp-medium);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--G1, linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: 0;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 1200px) {
+  .Purchase_step .cardcont .cont .round h4 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .Purchase_step .cardcont .cont .round h4 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .Purchase_step .cardcont .cont .round h4 {
+    font-size: 40px;
+  }
+}
+.Purchase_step .cardcont .cont p {
+  color: white;
+  padding: 10px 25px 0px 25px;
+}
+@media (max-width: 1200px) {
+  .Purchase_step .cardcont .cont p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  .Purchase_step .cardcont .cont p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .Purchase_step .cardcont .cont p {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,144 @@
+.banner {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: cover;
+  padding: 0px 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: background-image 2s ease-in-out;
+  position: relative;
+  overflow-x: hidden;
+}
+@media (max-width: 1200px) {
+  .banner {
+    padding: 0px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    padding: 0px 30px;
+  }
+}
+.banner .w-fit-content {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.banner .sandclock {
+  position: absolute;
+  right: 0%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .banner .sandclock {
+    right: -40px;
+  }
+}
+@media (max-width: 992px) {
+  .banner .sandclock {
+    position: relative;
+    right: 0px;
+  }
+  .banner .sandclock .sandclockimg {
+    display: none;
+  }
+  .banner .sandclock .sandclockimg1 {
+    display: block !important;
+  }
+}
+@media (max-width: 768px) {
+  .banner .sandclock {
+    display: none;
+    position: absolute;
+    right: -40px;
+  }
+  .banner .sandclock .sandclockimg {
+    display: block;
+    z-index: 1;
+  }
+  .banner .sandclock .sandclockimg1 {
+    display: none !important;
+  }
+}
+.banner .details {
+  z-index: 2;
+}
+.banner .details p {
+  font-size: 24px;
+  color: white;
+  font-family: var(--pp-book);
+}
+@media (max-width: 992px) {
+  .banner .details p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .banner .details p {
+    font-size: 18px;
+  }
+}
+.banner .details h1 {
+  font-size: 70px;
+  color: #fff;
+  font-family: var(--pp-book);
+  font-weight: 500;
+}
+@media (max-width: 1200px) {
+  .banner .details h1 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 992px) {
+  .banner .details h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .banner .details h1 {
+    font-size: 50px;
+  }
+}
+.banner .details button {
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: var(pp-medium);
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  margin-top: 60px;
+  color: #e5e5e5;
+}
+@media (max-width: 992px) {
+  .banner .details button {
+    width: 200px;
+    height: 50px;
+  }
+}
+.banner .details .bluebtn {
+  background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+}
+.banner .details .yellowbtn {
+  background: linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%);
+}
+
+@keyframes topToBottom {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}/*# sourceMappingURL=banner.css.map */

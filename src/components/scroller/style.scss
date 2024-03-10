@@ -1,0 +1,93 @@
+.scoller {
+  .about-container {
+    height: 100vh;
+    background-image: url("../../assets/images/about/aboutbg.png");
+    overflow: hidden;
+    @media (max-height: 100vh) {
+      position: sticky;
+      top: 0%;
+      z-index: -1;
+    }
+
+    .Aborder {
+      width: 634px;
+      height: 426px;
+      border-radius: 210px;
+      border: 2px dashed rgb(217, 217, 217, 50%);
+      position: absolute;
+      inset: 0;
+      margin: auto;
+    }
+    .sleepgirl {
+      background-image: url("../../assets/images/about/Frame.png");
+      width: 200px;
+      height: 200px;
+      // z-index: 5;
+      border-radius: 20px;
+      object-position: center;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-position-x: center;
+      background-position-y: top;
+      position: relative;
+    }
+  }
+  .new1 {
+    height: 150vh;
+  }
+
+  .new7 {
+    height: 100vh;
+    padding: 0px 80px;
+    @media (max-width: 1200px) {
+      padding: 0px 60px;
+    }
+    @media (max-width: 768px) {
+      padding: 0px 30px;
+    }
+    @media (max-width: 576px) {
+      height: 120vh;
+      padding: 30px;
+    }
+    .heading {
+      h2 {
+        color: white;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 88.712px;
+        font-family: var(--pp-medium);
+        @media (max-width: 992px) {
+          font-size: 50px;
+          line-height: 50px;
+        }
+      }
+    }
+    .about-details {
+      p {
+        color: #fff;
+        font-family: var(--pp-thin);
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 35px;
+        @media (max-width: 768px) {
+          line-height: 25px;
+          br {
+            display: none;
+          }
+        }
+      }
+      h5 {
+        font-size: 22px;
+        color: #fff;
+      }
+    }
+  }
+
+  .new11 {
+    height: 100vh;
+    background-color: rgb(16, 16, 15);
+  }
+}

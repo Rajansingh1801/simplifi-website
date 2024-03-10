@@ -1,0 +1,145 @@
+.ingredient .sliders {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+.ingredient .sliders .first_circle {
+  background-color: #ccd3ea;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -160px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.ingredient .sliders .second_circle {
+  background-color: #abb8df;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ingredient .sliders .second_circle .three_circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #8fafd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ingredient .sliders .second_circle .content {
+  background-color: white;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.3s;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.ingredient .sliders .second_circle .content.active {
+  height: 100px;
+  width: 100px;
+  margin-left: 60px;
+  box-shadow: 0px 0px 20px rgba(235, 234, 234, 0.5);
+}
+.ingredient .sliders .second_circle h2 {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.ingredient .sliders .description {
+  padding-right: 120px;
+}
+.ingredient .tabpart {
+  padding: 100px 0px;
+}
+.ingredient .tabpart .nav-tabs {
+  border: 2px solid #e5e5e5;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom: 2px solid #011422;
+}
+.ingredient .tabpart .nav-link {
+  padding: 10px 20px;
+  color: #00080e;
+  font-weight: 500;
+}
+.ingredient .tabpart .active {
+  background-color: #011422 !important;
+  color: white;
+  border-color: #dee2e6 #dee2e6 #011422;
+}
+.ingredient .tabpart .tab-pane {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px 40px;
+  font-size: 14px;
+}
+.ingredient .tabpart .dropdowns {
+  margin: 30px 0px;
+}
+.ingredient .tabpart .dropdowns select {
+  width: 130px;
+  height: 30px;
+  background-color: #011422;
+  border: 2px solid white;
+  color: white;
+}
+.ingredient .lastsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.ingredient .lastsection .imgcont {
+  position: relative;
+}
+.ingredient .lastsection .imgcont img {
+  position: relative;
+  right: -110px;
+}
+.ingredient .lastsection .content {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+}
+.ingredient .lastsection .content h3 {
+  color: var(--Dark, #00080e);
+  text-align: center;
+  font-family: var(--pp--book);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.ingredient .lastsection .content p {
+  color: var(--Dark-grey, #626262);
+  text-align: center;
+  font-family: var(--pp--book);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,230 @@
+.profile {
+  padding: 140px 80px;
+  @media (max-width: 768px) {
+    padding: 140px 40px;
+  }
+  h2 {
+    font-family: var(--pp-book);
+    color: #00080e;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 70px;
+    text-transform: capitalize;
+  }
+  .cont {
+    margin-top: 30px;
+    width: 100%;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.1);
+    .head {
+      h6 {
+        color: #00080e;
+        font-family: var(--pp-book);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 0;
+        @media (max-width: 992px) {
+          font-size: 24px;
+        }
+        @media (max-width: 576px) {
+          font-size: 20px;
+        }
+      }
+      p {
+        font-family: var(--pp-book);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+        background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom: 1px solid #095991;
+        cursor: pointer;
+        @media (max-width: 576px) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .line {
+      height: 2px;
+      background-color: #e5e5e5;
+      margin: 25px 0px;
+    }
+    .email {
+      color: #00080e;
+      font-family: var(--pp-book);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-left: 80px;
+      @media (max-width: 576px) {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+.changepass {
+  position: relative;
+  .closebtn {
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+  .profileimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    // overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+  }
+  .editimg {
+    background-color: rgb(0, 9, 15, 0.5);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .profileimg:hover .editimg {
+    display: grid;
+  }
+  .removebtn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+  }
+  h4 {
+    color: #00080e;
+    text-align: center;
+    font-family: var(--pp-medium);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .form-field {
+    margin-bottom: 28px;
+    width: 449.333px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    @media (max-width: 992px) {
+      width: 350px;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      // height: 50px;
+    }
+    input {
+      border: none;
+      width: 100%;
+      border-radius: 50px;
+      height: 100%;
+      padding: 10px 26px;
+      color: black;
+      font-family: var(--pp-book);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      @media (max-width: 768px) {
+        // padding: 8px 8px;
+        // height: auto;
+      }
+    }
+    input::placeholder {
+      color: rgb(222, 221, 221);
+    }
+
+    input:focus {
+      outline: none;
+      border: none;
+    }
+    img {
+      width: 16.879px;
+      height: 8.745px;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+  }
+  .errormessage {
+    color: red;
+    text-align: left;
+    padding: 2px 15px;
+    font-size: 14px;
+  }
+  button {
+    margin-top: 20px;
+    width: 150px;
+    padding: 8px 0px;
+    border-radius: 50px;
+    border: 2px solid;
+    background: white;
+    background-color: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+    font-family: var(--pp-medium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    @media (max-width: 768px) {
+      padding: 6px 0px;
+    }
+  }
+  button:hover {
+    color: white;
+    background: linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%);
+  }
+
+  .removebtn {
+    background-color: red;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  button.canclebtn {
+    border: 2px solid #fdc830;
+    background-color: white;
+  }
+  button.canclebtn:hover {
+    border: none;
+    background: linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%);
+  }
+}
+
+.form-fieldphone {
+  .PhoneInputCountry {
+    padding: 10px !important;
+  }
+}
+.changepass .form-field img {
+  width: 18px;
+  height: 18px;
+}

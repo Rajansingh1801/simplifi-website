@@ -1,0 +1,75 @@
+.offer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: linear-gradient(89deg, rgba(9, 89, 145, 0.1) 0.21%, rgba(1, 26, 42, 0.1) 106.62%);
+}
+.offer .errormessage {
+  color: red;
+}
+.offer .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  .offer .main {
+    flex-direction: column-reverse;
+  }
+}
+.offer .main .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.offer .img-section {
+  padding-bottom: 20px;
+}
+.offer .img-section .img-cont {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.offer .img-section .img-cont img {
+  height: 100%;
+}
+.offer .inp-cont {
+  margin: 18px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 472px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid var(--G2, #095991);
+  background: #fff;
+  padding: 12px 6px 12px 20px;
+}
+@media (max-width: 576px) {
+  .offer .inp-cont {
+    width: 100%;
+  }
+}
+.offer .inp-cont input {
+  border: none;
+  width: 100%;
+  overflow: hidden;
+}
+.offer .inp-cont input::-moz-placeholder {
+  color: rgb(222, 221, 221);
+}
+.offer .inp-cont input::placeholder {
+  color: rgb(222, 221, 221);
+}
+.offer .inp-cont input:focus {
+  outline: none;
+  border: none;
+}
+.offer .inp-cont button {
+  width: 95px;
+  height: 41.835px;
+  flex-shrink: 0;
+  border-radius: 20.917px;
+  border: 1px solid #e7e7e7;
+  background: var(--G2, linear-gradient(89deg, #095991 0.21%, #011a2a 106.62%));
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset, 0px -4px 4px 0px rgba(0, 0, 0, 0.2) inset;
+}/*# sourceMappingURL=style.css.map */

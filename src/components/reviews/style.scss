@@ -1,0 +1,113 @@
+.reviews {
+  .header {
+    height: 383px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/img/reviewsbg.png");
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-family: var(--pp-book);
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 70px; /* 116.667% */
+      text-transform: capitalize;
+    }
+  }
+  .bodysection {
+    h4 {
+      text-align: center;
+      font-family: var(--pp-book);
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .field {
+      border-radius: 50px;
+      border: 1px solid #f0f0f0;
+      background: #fff;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+      width: 424px;
+      height: 60px;
+      overflow: hidden;
+      display: flex;
+      padding: 0px 20px;
+      input {
+        border: 0;
+        height: 100%;
+        width: 100%;
+      }
+      button {
+        border: none;
+        background-color: transparent;
+      }
+    }
+    .hr {
+      height: 1px;
+      background-color: #e5e5e5;
+    }
+    .dropdowns {
+      display: flex;
+      justify-content: end;
+      select {
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        margin-left: 20px;
+        border-radius: 4px;
+        border: 1px solid var(--Grey, #e5e5e5);
+        background: #fff;
+        color: var(--Dark-grey, #626262);
+        font-family: var(--pp-book);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+    .cardsection {
+      h4 {
+        text-align: start;
+        color: var(--Dark, #00080e);
+        font-family: var(--pp-book);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .heading-hr {
+        border-radius: 10px;
+        background: var(
+          --G1,
+          linear-gradient(237deg, #f37335 10.25%, #fdc830 96.37%)
+        );
+        width: 150px;
+        height: 4px;
+        flex-shrink: 0;
+      }
+      .reviewcards {
+        display: flex;
+        h3 {
+          font-family: var(--pp-book);
+          font-size: 26px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+        .userimg {
+          max-width: 80px;
+          height: 80px;
+        }
+      }
+      .rehr {
+        height: 6px;
+        background-color: #e5e5e5;
+        border-radius: 10px;
+      }
+    }
+  }
+}

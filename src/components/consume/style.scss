@@ -1,0 +1,41 @@
+.consume {
+  padding: 70px 0px;
+  @media (max-width: 992px) {
+    br {
+      display: none;
+    }
+  }
+
+  .card-container {
+    .card {
+      margin: 70px 0px;
+      padding: 30px;
+      display: flex;
+      border-radius: 60px;
+      border: 2px dashed #095991;
+      h5 {
+        color: #000;
+        font-family: var(--pp-book);
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 41.6px; /* 83.2% */
+        text-transform: capitalize;
+        @media (max-width: 768px) {
+          font-size: 30px;
+        }
+      }
+      p {
+        color: #000;
+        font-family: var(--pp-book);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29.9px; /* 149.5% */
+        @media (max-width: 768px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

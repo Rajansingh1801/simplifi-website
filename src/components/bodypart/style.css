@@ -1,0 +1,206 @@
+.bodypart {
+  height: 100vh;
+  width: 100%;
+  padding: 0px 80px;
+  background-image: url("../../assets/images/about/aboutbg.png");
+}
+@media (max-width: 1200px) {
+  .bodypart {
+    padding: 0px 60px;
+  }
+}
+@media (max-width: 992px) {
+  .bodypart {
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 768px) {
+  .bodypart {
+    padding: 0px 30px;
+    display: none;
+  }
+}
+.bodypart .imgcont {
+  height: 90vh;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.bodypart .imgcont img {
+  height: 100%;
+}
+.bodypart .text-part {
+  flex-direction: column;
+  height: 80vh;
+  display: flex;
+  align-items: end;
+  width: 350px;
+  justify-content: space-between;
+}
+.bodypart .text-part .cont {
+  padding: 0px 20px;
+}
+.bodypart .text-part .cont h6 {
+  color: white;
+  font-family: var(--pp-book);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.9px;
+}
+.bodypart .text-part .cont p {
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.9px;
+}
+.bodypart .text-part .cont:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 500ms;
+}
+.bodypart .text-part .headpart:hover .eye {
+  display: block;
+}
+.bodypart .text-part .borders {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.bodypart-resposive {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  padding: 0px 80px;
+  background-image: url("../../assets/images/about/aboutbg.png");
+}
+@media (max-width: 1200px) {
+  .bodypart-resposive {
+    padding: 0px 60px;
+  }
+}
+@media (max-width: 768px) {
+  .bodypart-resposive {
+    padding: 0px 30px;
+    display: block;
+  }
+}
+.bodypart-resposive .imgcont {
+  height: 90vh;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 767px) {
+  .bodypart-resposive .imgcont {
+    height: 85vh;
+  }
+}
+@media (max-width: 767px) {
+  .bodypart-resposive .imgcont {
+    height: 80vh;
+  }
+}
+.bodypart-resposive .imgcont img {
+  height: 100%;
+}
+.bodypart-resposive .text-part {
+  flex-direction: column;
+  height: 80vh;
+  overflow-y: scroll;
+  display: flex;
+  align-items: end;
+  width: 350px;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .bodypart-resposive .text-part {
+    height: 100vh;
+    padding: 30px 0px;
+    width: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .bodypart-resposive .text-part {
+    height: 100vh;
+    padding: 30px 0px;
+    width: 250px;
+  }
+}
+.bodypart-resposive .text-part .cont {
+  padding: 0px 20px;
+}
+@media (max-width: 768px) {
+  .bodypart-resposive .text-part .cont {
+    padding: 30px 18px;
+  }
+}
+@media (max-width: 576px) {
+  .bodypart-resposive .text-part .cont {
+    padding: 16px 4px;
+  }
+}
+.bodypart-resposive .text-part .cont h6 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--pp-book);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.9px;
+}
+@media (max-width: 768px) {
+  .bodypart-resposive .text-part .cont h6 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 576px) {
+  .bodypart-resposive .text-part .cont h6 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+.bodypart-resposive .text-part .cont p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.9px;
+}
+@media (max-width: 768px) {
+  .bodypart-resposive .text-part .cont p {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .bodypart-resposive .text-part .cont p {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 8px;
+  }
+}
+.bodypart-resposive .text-part .cont:hover h6,
+.bodypart-resposive .text-part .cont:hover p {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 500ms;
+}
+.bodypart-resposive .text-part .headpart:hover .eye {
+  display: block;
+}
+.bodypart-resposive .text-part .borders {
+  height: 1px;
+  padding: 0.5px;
+  margin: 8px 10px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.bodypart-resposive .text-part::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

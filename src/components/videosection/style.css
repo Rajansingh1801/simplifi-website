@@ -1,0 +1,23 @@
+.videosection {
+  position: relative;
+  height: 100vh;
+}
+.videosection .videocont {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+.videosection .videocont video {
+  width: 100%;
+}
+.videosection .bottlecont {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

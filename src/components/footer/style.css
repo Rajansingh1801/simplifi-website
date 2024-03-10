@@ -1,0 +1,89 @@
+footer {
+  padding: 40px 0px;
+  background-image: url("../../assets//images//about/aboutbg.png");
+}
+footer .title {
+  display: flex;
+  align-items: center;
+}
+footer .title .dot {
+  width: 21.902px;
+  height: 21.902px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+footer .title h2 {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: var(--pp-book);
+  font-size: 55.946px;
+  font-style: normal;
+  line-height: normal;
+  cursor: pointer;
+}
+footer .title h2 span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+footer ul {
+  list-style: none;
+}
+footer .contact a {
+  text-decoration: none;
+  color: white;
+}
+footer .contact a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .navlist ul {
+  cursor: pointer;
+}
+footer .navlist ul li {
+  padding: 4px 0px;
+}
+footer .navlist ul li:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .copyright p {
+  font-family: var(--pp-book);
+}
+footer .copyright p span {
+  font-family: var(--pp-editorial);
+  opacity: 0.7;
+}
+footer .copyright ul {
+  display: flex;
+  align-items: center;
+}
+footer .copyright ul li {
+  font-family: var(--pp-book);
+}
+footer .copyright ul li a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+footer .copyright ul .dot {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0px 14px;
+}
+footer .copyright .logo {
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .copyright .logo:hover {
+  box-shadow: 0px 0px 15px #fff;
+}
+footer .line {
+  height: 1px;
+  background-color: #fff;
+  width: 100%;
+  margin: 40px 0px;
+}/*# sourceMappingURL=style.css.map */
